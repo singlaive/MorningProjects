@@ -4,11 +4,11 @@
 #include <netinet/in.h>
 #include <string.h>
 #include <errno.h>
-#include "../inc/dummy.h"
+#include "../../common/common.h"
 
 #define LINELEN_MAX 80U
 
-void take_cmd(FILE *fp, int fd);
+void take_cmd(void *p, size_t length, int fd);
 
 int main(void)
 {
@@ -21,18 +21,31 @@ int main(void)
 		char email[30];
 		uint8_t age;
 	} user_info_t;
-
-	puts("Name: ");
+/*
+	printf("Name: ");
 	fgets(user_info_t.name, 20, stdin);
-	puts("Email: ");
+	user_info_t.name[strlen(user_info_t.name)-1] = '\0';
+	printf("Email: ");
 	fgets(user_info_t.email, 30, stdin);
+	user_info_t.email[strlen(user_info_t.email)-1] = '\0';
 //	puts("age: ");
 //	fgets(user_info_t.age, 1, stdin);
 	user_info_t.age = 30;
+*/
 
-	printf("Name: %s; Email: %s;Age: %d.", user_info_t.name, user_info_t.email, user_info_t.age);
+
+	strcpy(user_info_t.name, "Murphy Meng");
+	strcpy(user_info_t.email, "singlaive@gmail.com");
+	user_info_t.age = 18;
+
+	printf("Name: %s; Email: %s;Age: %d.\n", user_info_t.name, user_info_t.email, user_info_t.age);
 
 	fd = socket(AF_INET, SOCK_STREAM, 0);
+	if (fd < 0)
+	{
+		DIAG_ERROR("Failed in socket (fd = %d).", fd);
+	}
+
 	bzero(&addr_srv, sizeof(addr_srv));
 
 	addr_srv.sin_family = AF_INET;
@@ -42,43 +55,40 @@ int main(void)
 
 	connect(fd, (struct sockaddr *)&addr_srv, sizeof(addr_srv));
 
-	take_cmd(stdin, fd);
+	take_cmd(&user_info_t, sizeof(user_info_t), fd);
 
 	exit(0);
 }
 
-void take_cmd(FILE *fp, int fd)
+void take_cmd(void *p, size_t length, int fd)
 {
 	char line_in[LINELEN_MAX], line_out[LINELEN_MAX];
 	int n = -1;
 
 	bzero(line_in, LINELEN_MAX);
 
-	while (NULL != fgets(line_in, LINELEN_MAX, fp))
+	n = write(fd, p, length);
+	if (n <= 0)
 	{
-		bzero(line_out, LINELEN_MAX);
-		n = write(fd, line_in, strlen(line_in));
+		DIAG_FATAL("Client: write failed (%d).\n", n);
+		//break;
+	}
+	else
+	{
+		n = read(fd, line_out, LINELEN_MAX);
 		if (n <= 0)
 		{
-			printf("Client: write failed (%d).\n", n);
-			break;
+			DIAG_ERROR("Client: EOF or Read failed (%d).\n", n);
+			//break;
 		}
 		else
 		{
-			n = read(fd, line_out, LINELEN_MAX);
-			if (n <= 0)
-			{
-				printf("Client: EOF or Read failed (%d).\n", n);
-				break;
-			}
-			else
-			{
-				printf("Client: Received string \"%s\" (length %d, really? %d)\n", line_out, n, strlen(line_out));
+			printf("Client: Received string \"%s\" (length %d, really? %d)\n", line_out, n, strlen(line_out));
 			//printf("Client: [0]= %c; [1]= %c; [2] = %c\n", line_out[0], line_out[1], line_out[2]);
-			}
-/*		fputs(line_out, stdout);*/
 		}
+/*		fputs(line_out, stdout);*/
 	}
+
 }
 
 /* Read n bytes from fd. It shall try reading even if the socket buffer limit is hit. */

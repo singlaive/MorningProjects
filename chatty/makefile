@@ -1,6 +1,6 @@
 all: chatty_srv chatty_clt
 
-chatty_%: src/chatty_%.o
+chatty_%: src/chatty_%.o ../common/common.o
 #chatty_srv: src/chatty_srv.o
 	cc -o $@ $^
 
@@ -21,3 +21,6 @@ clean:
 	
 configure:
 	echo Chatty configured.
+
+	
+include ../common/makefile
