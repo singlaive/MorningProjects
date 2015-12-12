@@ -1,0 +1,539 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADDR_EXPORT	src/client/eLibrary_client_parse.c	/^uint32_t ADDR_EXPORT(char * str)$/;"	f
+BOOK_FILTER	src/server/inc/eLibrary_serverTypes.h	/^}BOOK_FILTER;$/;"	t	typeref:struct:__anon22
+BOOK_FILTER_TAG	src/server/inc/eLibrary_serverTypes.h	/^}BOOK_FILTER_TAG;$/;"	t	typeref:enum:__anon21
+BOOK_INFO	src/server/inc/eLibrary_serverTypes.h	/^}BOOK_INFO;$/;"	t	typeref:struct:__anon17
+BOOK_INFO	src/server/inc/eLibrary_serverTypes.h	/^}BOOK_INFO;$/;"	t	typeref:struct:__anon24
+BOOK_LIBRARY	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^}BOOK_LIBRARY;$/;"	t	typeref:struct:__anon31
+BRIEF_EVT_ADD_BOOK	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ADD_BOOK,$/;"	e	enum:briefEVT
+BRIEF_EVT_ADD_DESP	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ADD_DESP,$/;"	e	enum:briefEVT
+BRIEF_EVT_ADD_FRIEND	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ADD_FRIEND,$/;"	e	enum:briefEVT
+BRIEF_EVT_ADD_GROUP	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ADD_GROUP,$/;"	e	enum:briefEVT
+BRIEF_EVT_BUY_BOOK	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_BUY_BOOK,$/;"	e	enum:briefEVT
+BRIEF_EVT_ERR_CMD_INVALID	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ERR_CMD_INVALID,$/;"	e	enum:briefEVT
+BRIEF_EVT_ERR_GENERAL	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_ERR_GENERAL,$/;"	e	enum:briefEVT
+BRIEF_EVT_FAIL	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_FAIL,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_ADD	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_ADD,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_BUY	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_BUY,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_MSG	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_MSG,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_RM	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_RM,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_SEARCH	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_SEARCH,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_VIEW	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_VIEW,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_WHATSUP	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_WHATSUP,$/;"	e	enum:briefEVT
+BRIEF_EVT_HLP_WOW	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_HLP_WOW,$/;"	e	enum:briefEVT
+BRIEF_EVT_RM_BOOK	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_RM_BOOK,$/;"	e	enum:briefEVT
+BRIEF_EVT_RM_FRIEND	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_RM_FRIEND,$/;"	e	enum:briefEVT
+BRIEF_EVT_VIEW_BOOK	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_VIEW_BOOK,$/;"	e	enum:briefEVT
+BRIEF_EVT_VIEW_FRD_ALL	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_VIEW_FRD_ALL,$/;"	e	enum:briefEVT
+BRIEF_EVT_VIEW_USER	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_VIEW_USER,$/;"	e	enum:briefEVT
+BRIEF_EVT_WOW_BOOK	src/client/inc/eLibrary_clientTypes.h	/^	BRIEF_EVT_WOW_BOOK,$/;"	e	enum:briefEVT
+BUYedBooksMap	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t BUYedBooksMap;$/;"	m	struct:__anon16
+CLIENTNAME_EXPORT	src/client/eLibrary_client_parse.c	/^char * CLIENTNAME_EXPORT(char * str)$/;"	f
+CLIENT_CONTEXT	src/client/inc/eLibrary_clientTypes.h	/^}CLIENT_CONTEXT;$/;"	t	typeref:struct:__anon12
+CLIENT_REQUEST	inc/eLibrary_sharedTypes.h	/^}CLIENT_REQUEST;$/;"	t	typeref:struct:__anon2
+CLIENT_USER_INFO	src/client/inc/eLibrary_clientTypes.h	/^}CLIENT_USER_INFO;$/;"	t	typeref:struct:__anon10
+CMD_EXPORT	src/client/eLibrary_client_parse.c	/^char * CMD_EXPORT(char * str)$/;"	f
+CNM_CLT_CONTEXT	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^}CNM_CLT_CONTEXT;$/;"	t	typeref:struct:__anon15
+CNM_CLT_PROTCOL_lastvalue	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    CNM_CLT_PROTCOL_lastvalue$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^}CNM_CLT_PROTOCOL;$/;"	t	typeref:enum:__anon13
+CNM_CLT_PROTOCOL_FIFO	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^	CNM_CLT_PROTOCOL_FIFO,$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL_HTTP	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^	CNM_CLT_PROTOCOL_HTTP,$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL_TCP	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^	CNM_CLT_PROTOCOL_TCP,$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL_UDP	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^	CNM_CLT_PROTOCOL_UDP,$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL_UPNP	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^	CNM_CLT_PROTOCOL_UPNP,$/;"	e	enum:__anon13
+CNM_CLT_PROTOCOL_undefined	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    CNM_CLT_PROTOCOL_undefined,$/;"	e	enum:__anon13
+CNM_CLT_event_CB	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^typedef void (*CNM_CLT_event_CB)(COMMON_HANDLE client_id, RETRIEVAL_TYPE retrieval_type, void *pay_load);$/;"	t
+CNM_CLT_meta	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^struct CNM_CLT_meta$/;"	s
+CNM_CLT_registerEventCB	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^typedef SYSTEM_STATUS (*CNM_CLT_registerEventCB)(COMMON_HADLE client_id, CNM_CLT_event_CB listener);$/;"	t
+CNM_CLT_sendData	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^typedef SYSTEM_STATUS (*CNM_CLT_sendData)(CLIENT_REQUEST *p_request);$/;"	t
+CNM_CLT_setProtocol_func	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^typedef SYSTEM_STATUS (*CNM_CLT_setProtocol_func)(CNM_CLT_CONN_PROTOCOL conn_protocol);$/;"	t
+CNM_CONN_TYPE	src/server/CNM/inc/eLibrary_CNM_types.h	/^}CNM_CONN_TYPE;$/;"	t	typeref:enum:__anon33
+CNM_CONN_TYPE_LOCAL	src/server/CNM/inc/eLibrary_CNM_types.h	/^	CNM_CONN_TYPE_LOCAL,$/;"	e	enum:__anon33
+CNM_CONN_TYPE_REMOTE	src/server/CNM/inc/eLibrary_CNM_types.h	/^	CNM_CONN_TYPE_REMOTE,$/;"	e	enum:__anon33
+CNM_CONN_TYPE_invalid	src/server/CNM/inc/eLibrary_CNM_types.h	/^	CNM_CONN_TYPE_invalid = -1,$/;"	e	enum:__anon33
+CNM_CONN_TYPE_lastvalue	src/server/CNM/inc/eLibrary_CNM_types.h	/^	CNM_CONN_TYPE_lastvalue$/;"	e	enum:__anon33
+CNM_CONTEXT	src/server/CNM/inc/eLibrary_CNM_types.h	/^}CNM_CONTEXT;$/;"	t	typeref:struct:__anon32
+CNM_INTERFACE	src/server/CNM/inc/eLibrary_CNM_API.h	/^}CNM_INTERFACE;$/;"	t	typeref:struct:__anon35
+CNM_event_CB	src/server/CNM/inc/eLibrary_CNM_API.h	/^typedef void (*CNM_event_CB)(COMMON_HANDLE conn_handle, RETRIEVAL_TYPE retrieval_type, void *pay_load);$/;"	t
+CNM_event_listener	src/server/eLibrary_server_process.c	/^void CNM_event_listener(uint32_t conn_handle, uint32_t retrieval_type, void *pay_load)$/;"	f
+CNM_monitor_listen	src/server/CNM/eLibrary_CNM_client_monitor.c	/^SYSTEM_STATUS CNM_monitor_listen(CNM_CONN_TYPE *conn_type)$/;"	f
+CNM_monitor_listen	src/server/CNM/eLibrary_CNM_monitor.c	/^SYSTEM_STATUS CNM_monitor_listen(CNM_CONN_TYPE *conn_type)$/;"	f
+CNM_monitor_openConn	src/server/CNM/eLibrary_CNM_client_monitor.c	/^CNM_monitor_openConn(char *p_username, char *p_password, COMMON_HANDLE *p_conn_handle)$/;"	f
+CNM_monitor_openConn	src/server/CNM/eLibrary_CNM_monitor.c	/^CNM_monitor_openConn(char *p_username, char *p_password, COMMON_HANDLE *p_conn_handle)$/;"	f
+CNM_monitor_poll	src/server/CNM/eLibrary_CNM_client_monitor.c	/^CNM_monitor_poll(struct pollfd *fds, nfds_t nfds, int timeout)$/;"	f
+CNM_monitor_poll	src/server/CNM/eLibrary_CNM_monitor.c	/^CNM_monitor_poll(struct pollfd *fds, nfds_t nfds, int timeout)$/;"	f
+CNM_monitor_read	src/server/CNM/eLibrary_CNM_client_monitor.c	/^CNM_monitor_read()$/;"	f
+CNM_monitor_read	src/server/CNM/eLibrary_CNM_monitor.c	/^CNM_monitor_read()$/;"	f
+CONN_ADDR	src/server/CNM/inc/eLibrary_shm.h	/^}CONN_ADDR;$/;"	t	typeref:struct:__anon34
+CONN_INFO	src/server/CNM/eLibrary_CNM_client_monitor.c	/^}CONN_INFO;$/;"	t	typeref:struct:__anon36	file:
+CONN_INFO	src/server/CNM/eLibrary_CNM_monitor.c	/^}CONN_INFO;$/;"	t	typeref:struct:__anon37	file:
+DB_ENGINE	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^}DB_ENGINE;$/;"	t	typeref:struct:__anon29
+DB_SEARCH_CRITERIA	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^}DB_SEARCH_CRITERIA;$/;"	t	typeref:struct:__anon30
+DB_createTEXT	src/server/DB_ENGINE/eLibrary_DB_process.c	/^void DB_createTEXT(char *rt_buf, char *str_value)$/;"	f
+DB_create_user	src/server/DB_ENGINE/eLibrary_DB_process.c	/^SYSTEM_STATUS DB_create_user(USER_INFO *user_data)$/;"	f
+DB_matchUser	src/server/DB_ENGINE/eLibrary_DB_process.c	/^void DB_matchUser(column, char *user_name)$/;"	f
+ELIBRARY_CLIENTTYPES_H_	src/client/inc/eLibrary_clientTypes.h	9;"	d
+ELIBRARY_CLIENT_API_H_	inc/eLibrary_client_api.h	9;"	d
+ELIBRARY_CNM_TYPES_H_	src/server/CNM/inc/eLibrary_CNM_types.h	9;"	d
+ELIBRARY_CONN_MANAGER_H_	src/server/CNM/inc/eLibrary_CNM_API.h	10;"	d
+ELIBRARY_DB_API_H_	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	9;"	d
+ELIBRARY_DB_TYPES_H_	src/server/DB_ENGINE/inc/eLibrary_db_types.h	9;"	d
+ELIBRARY_FILTER	inc/eLibrary_sharedTypes.h	11;"	d
+ELIBRARY_SERVEERBRIEF_H_	src/client/inc/eLibrary_clientBrief.h	9;"	d
+ELIBRARY_SERVERHANDLER_H_	src/client/inc/eLibrary_client_parser.h	9;"	d
+ELIBRARY_SERVERPROCESS_H_	src/server/inc/eLibrary_serverHandler.h	9;"	d
+ELIBRARY_SERVERTYPES_H_	src/server/inc/eLibrary_serverTypes.h	9;"	d
+ELIBRARY_SERVER_H_	inc/eLibrary_server_api.h	9;"	d
+ELIBRARY_SHAREDTYPES_H_	inc/eLibrary_sharedTypes.h	9;"	d
+ELIBRARY_SHM_H_	src/server/CNM/inc/eLibrary_shm.h	9;"	d
+ELIBRARY_SORT	inc/eLibrary_sharedTypes.h	12;"	d
+FILTER_BY_ATTR_MASK	inc/eLibrary_sharedTypes.h	51;"	d
+FILTER_BY_BOOK_NAME	inc/eLibrary_sharedTypes.h	43;"	d
+FILTER_BY_BOOK_NAME	src/server/inc/eLibrary_serverTypes.h	/^	FILTER_BY_BOOK_NAME,$/;"	e	enum:__anon21
+FILTER_BY_BUYED	inc/eLibrary_sharedTypes.h	55;"	d
+FILTER_BY_COLLECTED	inc/eLibrary_sharedTypes.h	52;"	d
+FILTER_BY_OBJ_MASK	inc/eLibrary_sharedTypes.h	42;"	d
+FILTER_BY_TAG	inc/eLibrary_sharedTypes.h	44;"	d
+FILTER_BY_UPLOADED	inc/eLibrary_sharedTypes.h	53;"	d
+FILTER_BY_USER	src/server/inc/eLibrary_serverTypes.h	/^	FILTER_BY_USER,$/;"	e	enum:__anon21
+FILTER_BY_USER_FRIENDLY	inc/eLibrary_sharedTypes.h	49;"	d
+FILTER_BY_USER_MASK	inc/eLibrary_sharedTypes.h	46;"	d
+FILTER_BY_USER_NAME	inc/eLibrary_sharedTypes.h	47;"	d
+FILTER_BY_USER_SELF	inc/eLibrary_sharedTypes.h	48;"	d
+FILTER_BY_WOWED	inc/eLibrary_sharedTypes.h	54;"	d
+FILTER_INVALID	inc/eLibrary_sharedTypes.h	41;"	d
+HANDLER_METHODS	src/server/inc/eLibrary_serverHandler.h	/^}HANDLER_METHODS;$/;"	t	typeref:struct:__anon28
+JOB_MSG_DATA	src/server/inc/eLibrary_serverTypes.h	/^}JOB_MSG_DATA;$/;"	t	typeref:struct:__anon25
+LINELEN_MAX	test/test_server.c	11;"	d	file:
+MAX_ACTIES_AMOUNT	src/server/inc/eLibrary_serverTypes.h	17;"	d
+MAX_ACTY_LENGTH	inc/eLibrary_sharedTypes.h	67;"	d
+MAX_ATTACHED_STR_LENGTH	src/client/inc/eLibrary_clientTypes.h	15;"	d
+MAX_BOOK_NAME_LENGTH	inc/eLibrary_sharedTypes.h	63;"	d
+MAX_BRIEF_LENGTH	src/server/inc/eLibrary_serverTypes.h	19;"	d
+MAX_CMD_LENGTH	inc/eLibrary_sharedTypes.h	61;"	d
+MAX_DESP_LENGTH	inc/eLibrary_sharedTypes.h	64;"	d
+MAX_EVENT_LENGTH	src/server/inc/eLibrary_serverTypes.h	21;"	d
+MAX_JOB_SPEC_LENGTH	src/server/inc/eLibrary_serverTypes.h	23;"	d
+MAX_LENGTH_CONTEXTS	inc/eLibrary_sharedTypes.h	66;"	d
+MAX_MSG_LENGTH	inc/eLibrary_sharedTypes.h	65;"	d
+MAX_NAME_LENGTH	inc/eLibrary_sharedTypes.h	62;"	d
+MAX_NUM_WORKERS	src/server/inc/eLibrary_serverTypes.h	22;"	d
+MAX_OBJ_STR_LENGTH	src/client/inc/eLibrary_clientTypes.h	14;"	d
+MAX_SHM_PATH_LENGTH	src/server/CNM/inc/eLibrary_shm.h	11;"	d
+MAX_SYS_ACTIES_AMOUNT	src/server/inc/eLibrary_serverTypes.h	18;"	d
+MAX_SYS_CMD_LENGTH	src/server/inc/eLibrary_serverTypes.h	20;"	d
+MAX_TAG_NAME_LENGTH	inc/eLibrary_sharedTypes.h	68;"	d
+MAX_content_length	src/client/inc/eLibrary_clientTypes.h	16;"	d
+MSG_BOX	src/server/inc/eLibrary_serverTypes.h	/^}MSG_BOX;$/;"	t	typeref:struct:__anon20
+MSG_DIRECTION	src/server/inc/eLibrary_serverTypes.h	/^}MSG_DIRECTION;$/;"	t	typeref:enum:__anon18
+MSG_FORMAT	src/server/inc/eLibrary_serverTypes.h	/^}MSG_FORMAT;$/;"	t	typeref:struct:__anon19
+MSG_RECEIPT_IN	src/server/inc/eLibrary_serverTypes.h	/^	MSG_RECEIPT_IN,$/;"	e	enum:__anon18
+MSG_RECEIPT_OUT	src/server/inc/eLibrary_serverTypes.h	/^	MSG_RECEIPT_OUT,$/;"	e	enum:__anon18
+Map_InsertElement	src/server/eLibrary_server_handler.c	/^static SYSTEM_STATUS Map_InsertElement(uint32_t *p_map, uint32_t map_size, uint32_t new_element)$/;"	f	file:
+Map_RemoveElement	src/server/eLibrary_server_handler.c	/^static SYSTEM_STATUS Map_RemoveElement(uint32_t *p_map, uint32_t map_size, uint32_t shit_element)$/;"	f	file:
+PORT_EXPORT	src/client/eLibrary_client_parse.c	/^int PORT_EXPORT(char * str)$/;"	f
+PUBLIC_BOOK_INFO	inc/eLibrary_sharedTypes.h	/^}PUBLIC_BOOK_INFO;$/;"	t	typeref:struct:__anon9
+PUBLIC_USER_INFO	inc/eLibrary_sharedTypes.h	/^}PUBLIC_USER_INFO;$/;"	t	typeref:struct:__anon8
+RETRIEVAL_TYPE	inc/eLibrary_sharedTypes.h	/^}RETRIEVAL_TYPE;$/;"	t	typeref:enum:__anon1
+RETRIEVAL_TYPE_ADD_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_ADD_BOOK_DESP	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_BOOK_DESP,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_ADD_COMMENT	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_COMMENT,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_ADD_FRIEND	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_FRIEND,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_ADD_TAG	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_TAG,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_ADD_USER	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_ADD_USER,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BROWSE_ACTIVITIES	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BROWSE_ACTIVITIES,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BROWSE_BOOKS	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BROWSE_BOOKS,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BROWSE_MSGS	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BROWSE_MSGS,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BROWSE_TAGS	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BROWSE_TAGS,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BROWSE_USERS	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BROWSE_USERS,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_BUY_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_BUY_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_COLLECT_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_COLLECT_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_CREATE_USER	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_CREATE_USER,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_READ_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_READ_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_RM_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_RM_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_RM_FRIEND	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_RM_FRIEND,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_RM_TAG	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_RM_TAG,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_SEND_MSG	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_SEND_MSG,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_WORKER_TERM	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_WORKER_TERM = 99,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_WOW_BOOK	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_WOW_BOOK,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_invalid	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_invalid = 0,$/;"	e	enum:__anon1
+RETRIEVAL_TYPE_lastValue	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE_lastValue$/;"	e	enum:__anon1
+SERVER_CONTEXT	src/server/inc/eLibrary_serverTypes.h	/^}SERVER_CONTEXT;$/;"	t	typeref:struct:__anon27
+SERVER_EVENT_JOB	src/server/inc/eLibrary_serverTypes.h	13;"	d
+SERVER_EVENT_TERMINATION	src/server/inc/eLibrary_serverTypes.h	14;"	d
+SERVER_RESPONSE	inc/eLibrary_sharedTypes.h	/^}SERVER_RESPONSE;$/;"	t	typeref:struct:__anon4
+SERVER_RESPONSE_STATUS	inc/eLibrary_sharedTypes.h	/^}SERVER_RESPONSE_STATUS;$/;"	t	typeref:enum:__anon3
+SERVER_RESPONSE_STATUS_FAIL	inc/eLibrary_sharedTypes.h	/^	SERVER_RESPONSE_STATUS_FAIL,$/;"	e	enum:__anon3
+SERVER_RESPONSE_STATUS_OK	inc/eLibrary_sharedTypes.h	/^	SERVER_RESPONSE_STATUS_OK,$/;"	e	enum:__anon3
+SERVER_RESPONSE_STATUS_lastvalue	inc/eLibrary_sharedTypes.h	/^	SERVER_RESPONSE_STATUS_lastvalue$/;"	e	enum:__anon3
+SERVER_RESPONSE_STATUS_undef	inc/eLibrary_sharedTypes.h	/^	SERVER_RESPONSE_STATUS_undef = 0,$/;"	e	enum:__anon3
+SERVER_SESSION	src/server/inc/eLibrary_serverTypes.h	/^}SERVER_SESSION;$/;"	t	typeref:struct:__anon26
+SORT_BY_ALFA	inc/eLibrary_sharedTypes.h	58;"	d
+SORT_BY_TIME	inc/eLibrary_sharedTypes.h	59;"	d
+SORT_INVALID	inc/eLibrary_sharedTypes.h	57;"	d
+SOURCE_OBJECTS	test/makefile	/^SOURCE_OBJECTS = eLibrary_serverProcess.o eLibrary_serverBrief.o eLibrary_serverHandler.o eLibrary_serverCommon.o$/;"	m
+TEST_BRIEF	src/client/eLibrary_client_output.c	16;"	d	file:
+TEST_CLT_OBJECTS	test/makefile	/^TEST_CLT_OBJECTS = eLibrary.o test_client.o common.o$/;"	m
+TEST_CNM_BOOK_FULL_ATTRIBUTE	test/test_CNM_client.c	11;"	d	file:
+TEST_CNM_BOOK_FULL_ATTRIBUTE	test/test_CNM_server.c	10;"	d	file:
+TEST_ELIBRARY_H_	test/test_eLibrary.h	9;"	d
+TEST_NUM_BOOKS	test/test_eLibrary.h	13;"	d
+TEST_SERVER_H_	test/test_server.h	9;"	d
+TEST_SRV_OBJECTS	test/makefile	/^TEST_SRV_OBJECTS = eLibrary_server.o test_server.o common.o$/;"	m
+TEST_UNI_OBJECTS	test/makefile	/^TEST_UNI_OBJECTS = test_eLibrary.o test_serverHandler.o common.o$/;"	m
+TEXT_CONTENT	src/client/inc/eLibrary_clientTypes.h	/^}TEXT_CONTENT;$/;"	t	typeref:struct:__anon11
+USER_ID	src/server/inc/eLibrary_serverTypes.h	/^typedef COMMON_HANDLE USER_ID;$/;"	t
+USER_ID_INVALID	src/server/inc/eLibrary_serverTypes.h	24;"	d
+USER_INFO	src/server/inc/eLibrary_serverTypes.h	/^}USER_INFO;$/;"	t	typeref:struct:__anon16
+VPATH	test/makefile	/^VPATH = ..\/src:..\/inc:..\/..\/common\/inc:..\/..\/common\/src$/;"	m
+WOWedBooksMap	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t WOWedBooksMap;$/;"	m	struct:__anon16
+activities	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^	char activities[MAX_ACTY_LENGTH][MAX_ACTY_LENGTH]; \/* This is a ring array to store recently activities. Thus the beginning of the array might be overiden by later entries. *\/$/;"	m	struct:__anon31
+activitiy	inc/eLibrary_sharedTypes.h	/^				char activitiy[MAX_ACTY_LENGTH];$/;"	m	union:__anon4::__anon5::__anon6::__anon7
+activity	src/client/inc/eLibrary_clientTypes.h	/^	struct actyList * activity;$/;"	m	struct:__anon10	typeref:struct:__anon10::actyList
+acty	src/server/inc/eLibrary_serverTypes.h	/^	char acty[MAX_ACTY_LENGTH];$/;"	m	struct:actyList
+actyFree	src/client/eLibrary_client_parse.c	/^void actyFree(ACTY_FILTER_TAG filter, struct actyList * activities, uint32_t counter)$/;"	f
+actyHeadOffset	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^	uint32_t actyHeadOffset;		\/* Pointing to the start point in the activity array. *\/$/;"	m	struct:__anon31
+actyList	src/server/inc/eLibrary_serverTypes.h	/^struct actyList$/;"	s
+actyTailOffset	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^	uint32_t actyTailOffset;		\/* Pointing to the next available slot for new entry. *\/$/;"	m	struct:__anon31
+addBook	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS addBook(USER_INFO * owner, char * bookName, char * bookDesp, BOOK_GROUP bookGroup)$/;"	f
+addBook	src/server/inc/eLibrary_serverHandler.h	/^	addBook_func addBook;$/;"	m	struct:__anon28
+addBook_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*addBook_func)(USER_INFO * owner, char * bookName, char * bookDesp, BOOK_GROUP bookGroup);$/;"	t
+addFriend	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS addFriend(USER_INFO * host, USER_INFO * friend)$/;"	f
+addFriend	src/server/inc/eLibrary_serverHandler.h	/^	addFriend_func addFriend;$/;"	m	struct:__anon28
+addFriend_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*addFriend_func)(USER_INFO * host, USER_INFO * friend);$/;"	t
+addPlugin	src/server/CNM/inc/eLibrary_CNM_API.h	/^	addPlugin_func addPlugin;$/;"	m	struct:__anon35
+addPlugin_func	src/server/CNM/inc/eLibrary_CNM_API.h	/^typedef SYSTEM_STATUS (*addPlugin_func)(CNM_PLUGIN *plugin_interface);$/;"	t
+addUser	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS addUser(char * userName, char * email)$/;"	f
+addUser	src/server/inc/eLibrary_serverHandler.h	/^	addUser_func addUser;$/;"	m	struct:__anon28
+addUserActy	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS addUserActy(USER_INFO * host, ACTY_FILTER_TAG filter, char * name)$/;"	f
+addUserActy	src/server/inc/eLibrary_serverHandler.h	/^	addUserActy_func addUserActy;$/;"	m	struct:__anon28
+addUserActy_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*addUserActy_func)(USER_INFO * host, ACTY_FILTER_TAG filter, char * name);$/;"	t
+addUser_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*addUser_func)(char * userName, char * email);$/;"	t
+attached_str	inc/eLibrary_sharedTypes.h	/^	char attached_str[MAX_ATTACHED_STR_LENGTH]; \/* Whitch can be a description, a tag or a comment for a book. *\/$/;"	m	struct:__anon2
+book	src/server/inc/eLibrary_serverTypes.h	/^	BOOK_INFO * book;$/;"	m	struct:bookList
+bookList	src/server/inc/eLibrary_serverTypes.h	/^struct bookList$/;"	s
+bookName	src/server/inc/eLibrary_serverTypes.h	/^		char * bookName;$/;"	m	union:__anon22::__anon23
+bookName	test/test_eLibrary.h	/^	char * bookName;\/\/[MAX_BOOK_NAME_LENGTH];$/;"	m	struct:testData
+bookUpLoad	src/server/eLibrary_server_handler.c	/^void bookUpLoad(char * bookname)$/;"	f
+book_filter_tag_lastvalue	src/server/inc/eLibrary_serverTypes.h	/^	book_filter_tag_lastvalue,$/;"	e	enum:__anon21
+book_filter_tag_undef	src/server/inc/eLibrary_serverTypes.h	/^	book_filter_tag_undef = -1,$/;"	e	enum:__anon21
+book_handle_alive	src/server/inc/eLibrary_serverTypes.h	/^	COMMON_HANDLE book_handle_alive;           \/* Book that is opened currently. Only 1 book is allowed to be opened at a instance per user. *\/$/;"	m	struct:__anon26
+book_id_last_viewed	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t book_id_last_viewed;$/;"	m	struct:__anon16
+books	inc/eLibrary_sharedTypes.h	/^				PUBLIC_BOOK_INFO *books;$/;"	m	union:__anon4::__anon5::__anon6::__anon7
+books	src/client/inc/eLibrary_clientTypes.h	/^	struct bookList	* books;$/;"	m	struct:__anon10	typeref:struct:__anon10::bookList
+booksCollectedMap	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t booksCollectedMap[MAX_NO_BOOKS_COLLECTED];$/;"	m	struct:__anon16
+booksUploadedMap	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t booksUploadedMap[MAX_NO_BOOKS_UPLOADED];$/;"	m	struct:__anon16
+books_viewing_history	src/client/inc/eLibrary_clientTypes.h	/^	STACK_HANDLE books_viewing_history;$/;"	m	struct:__anon12
+briefActy	src/client/eLibrary_client_output.c	/^char * briefActy(uint32_t numActy, struct actyList * activities)$/;"	f
+briefBooks	src/client/eLibrary_client_output.c	/^char * briefBooks(uint32_t numBooks, struct bookList * books)$/;"	f
+briefEVT	src/client/inc/eLibrary_clientTypes.h	/^enum briefEVT$/;"	g
+briefEx	src/client/eLibrary_client_output.c	/^char * briefEx(enum briefEVT briefEvent, void * ptr)$/;"	f
+briefGlabalBookHty	src/client/eLibrary_client_output.c	/^char * briefGlabalBookHty(ACTY_FILTER_TAG acty_filter)$/;"	f
+briefMsgBox	src/client/eLibrary_client_output.c	/^char * briefMsgBox(USER_INFO * host)$/;"	f
+briefMsgContexts	src/client/eLibrary_client_output.c	/^char * briefMsgContexts(struct msgList * msgNode)$/;"	f
+brief_evt_lastvalue	src/client/inc/eLibrary_clientTypes.h	/^	brief_evt_lastvalue,$/;"	e	enum:briefEVT
+brief_evt_undef	src/client/inc/eLibrary_clientTypes.h	/^	brief_evt_undef = -1,$/;"	e	enum:briefEVT
+buyBook	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS buyBook(USER_INFO * host, BOOK_INFO * book)$/;"	f
+buyBook	src/server/inc/eLibrary_serverHandler.h	/^	buyBook_func buyBook;$/;"	m	struct:__anon28
+buyBook_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*buyBook_func)(USER_INFO * host, BOOK_INFO * book);$/;"	t
+client_id	src/client/inc/eLibrary_clientTypes.h	/^	uint32_t client_id;$/;"	m	struct:__anon12
+client_socketConnInit	src/server/CNM/CNM_socket.c	/^SYSTEM_STATUS client_socketConnInit()$/;"	f
+client_socketDataUpdate	src/server/CNM/CNM_socket.c	/^SYSTEM_STATUS client_socketDataUpdate(void * msg, size_t msgLength, int socketFd)$/;"	f
+collected_count	inc/eLibrary_sharedTypes.h	/^	uint32_t collected_count;$/;"	m	struct:__anon9
+cond_exchange	src/server/eLibrary_server_handler.c	/^pthread_cond_t cond_exchange = PTHREAD_COND_INITIALIZER;$/;"	v
+conn	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    } conn;$/;"	m	struct:CNM_CLT_meta	typeref:union:CNM_CLT_meta::__anon14
+conn	src/server/inc/eLibrary_serverTypes.h	/^	CNM_INTERFACE conn;$/;"	m	struct:__anon27
+conn_handle	src/server/CNM/eLibrary_CNM_client_monitor.c	/^	COMMON_HANDLE conn_handle;$/;"	m	struct:__anon36	file:
+conn_handle	src/server/CNM/eLibrary_CNM_monitor.c	/^	COMMON_HANDLE conn_handle;$/;"	m	struct:__anon37	file:
+conn_handle	src/server/inc/eLibrary_serverTypes.h	/^	COMMON_HANDLE conn_handle;$/;"	m	struct:__anon25
+conn_list	src/server/CNM/inc/eLibrary_CNM_types.h	/^	LIST_HANDLE conn_list;$/;"	m	struct:__anon32
+conn_meta	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    struct CNM_CLT_META conn_meta;$/;"	m	struct:__anon15	typeref:struct:__anon15::CNM_CLT_META
+conn_prototol	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    conn_prototol;$/;"	m	struct:CNM_CLT_meta
+contact	src/server/inc/eLibrary_serverTypes.h	/^	char contact[MAX_NAME_LENGTH];$/;"	m	struct:msgList
+content	inc/eLibrary_sharedTypes.h	/^		} content;$/;"	m	union:__anon4::__anon5	typeref:struct:__anon4::__anon5::__anon6
+contexts	src/server/inc/eLibrary_serverTypes.h	/^	struct msgContext * contexts;$/;"	m	struct:msgList	typeref:struct:msgList::msgContext
+countCollected	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t countCollected;$/;"	m	struct:__anon24
+createAccount	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	createAccount_func createAccount;$/;"	m	struct:__anon29
+createAccount_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*createAccount_func)(char *user_name, COMMON_HANDLE *host_id);$/;"	t
+date_last_visted	src/server/inc/eLibrary_serverTypes.h	/^	time_t date_last_visted;$/;"	m	struct:__anon16
+date_registered	src/server/inc/eLibrary_serverTypes.h	/^	time_t date_registered;$/;"	m	struct:__anon16
+datetime	src/server/inc/eLibrary_serverTypes.h	/^	time_t		datetime;$/;"	m	struct:__anon19
+db	src/server/inc/eLibrary_serverTypes.h	/^	DB_ENGINE db;$/;"	m	struct:__anon27
+desp	inc/eLibrary_sharedTypes.h	/^	char desp[MAX_DESP_LENGTH];$/;"	m	struct:__anon9
+desp	src/server/inc/eLibrary_serverTypes.h	/^	char desp[MAX_DESP_LENGTH];$/;"	m	struct:__anon24
+desp	test/test_eLibrary.h	/^	char * desp;\/\/[MAX_DESP_LENGTH];$/;"	m	struct:testData
+dest_str	src/server/inc/eLibrary_serverTypes.h	/^	char dest_str;$/;"	m	struct:__anon26
+detechBookNode	src/server/eLibrary_server_handler.c	/^struct bookList * detechBookNode(USER_INFO * host, char * bookName)$/;"	f
+detechFrdNode	src/server/eLibrary_server_handler.c	/^struct userList * detechFrdNode(USER_INFO * host, char * frdName)$/;"	f
+dumpBookInfo	src/server/eLibrary_server_handler.c	/^void dumpBookInfo(BOOK_INFO * book)$/;"	f
+eLibrary_CLT_createRequest	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_CLT_createRequest(const char *buf, CLIENT_REQUEST *p_request_data)$/;"	f
+eLibrary_CLT_destroyClient	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_CLT_destroyClient()$/;"	f
+eLibrary_CLT_getResponse	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_CLT_getResponse(const CLIENT_REQUEST *p_request_data, CLIENT_RESPONSE *p_response_data)$/;"	f
+eLibrary_CLT_readCache	src/client/eLibrary_client_api.c	/^bool eLibrary_CLT_readCache(const CLIENT_REQUEST *p_request_data, CLIENT_RESPONSE *p_response_data)$/;"	f
+eLibrary_CLT_registerClient	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_CLT_registerClient()$/;"	f
+eLibrary_CNM_CLT_setProtocol	src/client/CNM/eLibrary_CNM_client_API.c	/^SYSTEM_STATUS eLibrary_CNM_CLT_setProtocol(CNM_CLT_PROTOCOL conn_protocol)$/;"	f
+eLibrary_CNM_client_init	src/client/CNM/eLibrary_CNM_client_API.c	/^SYSTEM_STATUS eLibrary_CNM_client_init()$/;"	f
+eLibrary_CNM_init	src/server/CNM/eLibrary_CNM_API.c	/^SYSTEM_STATUS eLibrary_CNM_init()$/;"	f
+eLibrary_CNM_registerEventCB	src/server/CNM/eLibrary_CNM_API.c	/^SYSTEM_STATUS eLibrary_CNM_registerEventCB(CNM_event_CB listener)$/;"	f
+eLibrary_CNM_sendData	src/server/CNM/eLibrary_CNM_API.c	/^SYSTEM_STATUS eLibrary_CNM_sendData(COMMON_HANDLE conn_handle, SERVER_RESPONSE response_data)$/;"	f
+eLibrary_CNM_term	src/client/CNM/eLibrary_CNM_client_API.c	/^SYSTEM_STATUS eLibrary_CNM_term()$/;"	f
+eLibrary_CNM_term	src/server/CNM/eLibrary_CNM_API.c	/^SYSTEM_STATUS eLibrary_CNM_term()$/;"	f
+eLibrary_DB_cacheBook	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_cacheBook(char *user_name, COMMON_HANDLE *book_handle)$/;"	f	file:
+eLibrary_DB_cacheUser	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_cacheUser(char *user_name, COMMON_HANDLE *user_handle)$/;"	f	file:
+eLibrary_DB_createAccount	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_createAccount(char *user_name, COMMON_HANDLE *user_id)$/;"	f	file:
+eLibrary_DB_findBooksByFilter	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_findBooksByFilter(COMMON_HANDLE host_id, uint32_t filter_id, uint32_t *num_books, COMMON_HANDLE *book_ids)$/;"	f	file:
+eLibrary_DB_findUsersByFilter	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_findUsersByFilter(COMMON_HANDLE user_handle,$/;"	f	file:
+eLibrary_DB_getBookPublicInfo	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_getBookPublicInfo(COMMON_HANDLE book_id, PUBLIC_BOOK_INFO *public_info)$/;"	f	file:
+eLibrary_DB_getUserPublicInfo	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_getUserPublicInfo(COMMON_HANDLE user_handle, PUBLIC_USER_INFO *public_info)$/;"	f	file:
+eLibrary_DB_init	src/server/DB_ENGINE/eLibrary_DB_API.c	/^SYSTEM_STATUS eLibrary_DB_init()$/;"	f
+eLibrary_DB_setPassword	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_setPassword(COMMON_HANDLE user_id, char *pw_string)$/;"	f	file:
+eLibrary_DB_sortBooks	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_sortBooks(uint32_t sort_id, uint32_t num_books, COMMON_HANDLE *book_list)$/;"	f	file:
+eLibrary_DB_sortUsers	src/server/DB_ENGINE/eLibrary_DB_API.c	/^static SYSTEM_STATUS eLibrary_DB_sortUsers(uint32_t sort_id, uint32_t *num_users, COMMON_HANDLE *user_list)$/;"	f	file:
+eLibrary_DB_term	src/server/DB_ENGINE/eLibrary_DB_API.c	/^SYSTEM_STATUS eLibrary_DB_term()$/;"	f
+eLibrary_SVR_API_init	src/server/eLibrary_server_API.c	/^SYSTEM_STATUS eLibrary_SVR_API_init(CNM_INTERFACE cnm_interfaces, DB_ENGINE db_interfaces)$/;"	f
+eLibrary_SVR_API_term	src/server/eLibrary_server_API.c	/^SYSTEM_STATUS eLibrary_SVR_API_term()$/;"	f
+eLibrary_SVR_Handler_AddBookDescription	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_AddBookDescription(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_Handler_AddFriend	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_AddFriend(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_Handler_AddUser	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_AddUser(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_Handler_BrowseBooks	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_BrowseBooks(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_Handler_BrowseUsers	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_BrowseUsers(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_Handler_RmFriend	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS eLibrary_SVR_Handler_RmFriend(uint32_t conn_handle, void * job_spec, SERVER_RESPONSE *response_data)$/;"	f
+eLibrary_SVR_input_Add	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Add(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Buy	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Buy(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Init	src/client/eLibrary_client_parse.c	/^SYSTEM_STATUS eLibrary_SVR_input_Init(COMMON_HANDLE session_handle,$/;"	f
+eLibrary_SVR_input_Msg	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Msg(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Msg	src/client/eLibrary_client_parse.c	/^void * eLibrary_SVR_input_Msg(void * p)$/;"	f
+eLibrary_SVR_input_Rm	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Rm(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Search	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Search(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Term	src/client/eLibrary_client_parse.c	/^SYSTEM_STATUS eLibrary_SVR_input_Term()$/;"	f
+eLibrary_SVR_input_View	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_View(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Whatsup	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Whatsup(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_SVR_input_Wow	src/client/eLibrary_client_parse.c	/^char * eLibrary_SVR_input_Wow(COMMON_HANDLE session_handle, cmd_line_tag * parsedCmd)$/;"	f
+eLibrary_fillCache	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_fillCache(const CLIENT_RESPONSE *p_response_data)$/;"	f
+eLibrary_writeOutput	src/client/eLibrary_client_api.c	/^SYSTEM_STATUS eLibrary_writeOutput()$/;"	f
+email	test/test_eLibrary.h	/^	char * email;\/\/[MAX_EMAIL_LENGTH];$/;"	m	struct:testData
+event_CB	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    void event_CB;$/;"	m	struct:__anon15
+event_CB	src/server/CNM/inc/eLibrary_CNM_types.h	/^	void event_CB;$/;"	m	struct:__anon32
+f_book_array	test/test_CNM_client.c	/^PUBLIC_BOOK_INFO f_book_array[] =$/;"	v
+f_book_array	test/test_CNM_server.c	/^PUBLIC_BOOK_INFO f_book_array[] =$/;"	v
+f_client_context	src/client/eLibrary_client_api.c	/^CLIENT_CONTEXT f_client_context;$/;"	v
+f_conn_handle	test/test_CNM_client.c	/^COMMON_HANDLE f_conn_handle = 0U;$/;"	v
+f_conn_handle	test/test_CNM_server.c	/^COMMON_HANDLE f_conn_handle = 0U;$/;"	v
+f_test_CNM_event_clientlistener	test/test_CNM_client.c	/^static void f_test_CNM_event_clientlistener(COMMON_HANDLE conn_handle, $/;"	f	file:
+f_test_CNM_serverevent_listener	test/test_CNM_server.c	/^static void f_test_CNM_serverevent_listener(COMMON_HANDLE conn_handle, RETRIEVAL_TYPE retrieval_type, void *pay_load)$/;"	f	file:
+f_user_info	test/test_CNM_server.c	/^PUBLIC_USER_INFO f_user_info;$/;"	v
+fd_table	src/server/CNM/inc/eLibrary_CNM_types.h	/^	struct pollfd fd_table;$/;"	m	struct:__anon32	typeref:struct:__anon32::pollfd
+fifo_fd	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^        fifo_fd;$/;"	m	union:CNM_CLT_meta::__anon14
+fifo_fd	src/server/CNM/inc/eLibrary_CNM_types.h	/^	int fifo_fd;$/;"	m	struct:__anon32
+filter	src/server/inc/eLibrary_serverTypes.h	/^	} filter;$/;"	m	struct:__anon22	typeref:union:__anon22::__anon23
+filter_id	inc/eLibrary_sharedTypes.h	/^	uint32_t filter_id;$/;"	m	struct:__anon2
+findBooksByFilter	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	findBooksByFilter_func findBooksByFilter;$/;"	m	struct:__anon29
+findBooksByFilter_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*findBooksByFilter_func)(COMMON_HANDLE host_id, uint32_t filter_id, uint32_t *num_books, COMMON_HANDLE *book_ids);$/;"	t
+findUsersByFilter	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	findUsersByFilter_func findUsersByFilter;$/;"	m	struct:__anon29
+findUsersByFilter_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*findUsersByFilter_func)(COMMON_HANDLE host_id, uint32_t filter_id, uint32_t *num_users, COMMON_HANDLE *user_ids);$/;"	t
+friends	src/client/inc/eLibrary_clientTypes.h	/^	struct userList * friends;$/;"	m	struct:__anon10	typeref:struct:__anon10::userList
+friendsMap	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t friendsMap[MAX_NO_FRIENDS];$/;"	m	struct:__anon16
+g_CNM_client_cxt	src/client/CNM/eLibrary_CNM_client_API.c	/^CNM_CLT_CONTEXT g_CNM_client_cxt;$/;"	v
+g_CNM_client_interfaces	src/client/CNM/eLibrary_CNM_client_API.c	/^CNM_CLT_INTERFACE g_CNM_client_interfaces =$/;"	v
+g_CNM_client_interfaces	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^CNM_CLT_INTERFACE g_CNM_client_interfaces =$/;"	v
+g_CNM_cxt	src/server/CNM/eLibrary_CNM_API.c	/^CNM_CONTEXT g_CNM_cxt;$/;"	v
+g_CNM_interfaces	src/server/CNM/eLibrary_CNM_API.c	/^CNM_INTERFACE g_CNM_interfaces =$/;"	v
+g_DB_interfaces	src/server/DB_ENGINE/eLibrary_DB_API.c	/^DB_ENGINE g_DB_interfaces =$/;"	v
+g_eLibrary_server_handler	src/client/inc/eLibrary_client_parser.h	/^HANDLER_METHODS g_eLibrary_server_handler;$/;"	v
+g_negative_testing	test/test_server.h	/^bool g_negative_testing;$/;"	v
+g_server_cxt	inc/eLibrary_server_api.h	/^SERVER_CONTEXT g_server_cxt;$/;"	v
+g_server_library	src/server/DB_ENGINE/eLibrary_DB_API.c	/^BOOK_LIBRARY g_server_library;$/;"	v
+g_testData	test/test_serverHandler.c	/^struct testData g_testData[TEST_NUM_BOOKS] =$/;"	v	typeref:struct:testData
+getBookByName	src/server/eLibrary_server_handler.c	/^BOOK_INFO * getBookByName(USER_INFO * host, char * bookName)$/;"	f
+getBookHty	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS getBookHty(BOOK_INFO * book, ACTY_FILTER_TAG filter, uint32_t * counter, struct actyList ** activities)$/;"	f
+getBookHty	src/server/inc/eLibrary_serverHandler.h	/^	getBookHty_func getBookHty;$/;"	m	struct:__anon28
+getBookHty_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*getBookHty_func)(BOOK_INFO * book, ACTY_FILTER_TAG filter, uint32_t * numActy, struct actyList ** activities);$/;"	t
+getBookInfo	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS getBookInfo(BOOK_FILTER * filter, SORT_METHOD sort, uint32_t * numBooks, struct bookList ** books)$/;"	f
+getBookInfo_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*getBookInfo_func)(BOOK_FILTER * filter, SORT_METHOD sort, uint32_t * numBooks, struct bookList ** books);$/;"	t
+getBookPublicInfo	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	getBookPublicInfo_func getBookPublicInfo;$/;"	m	struct:__anon29
+getBookPublicInfo_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*getBookPublicInfo_func)(COMMON_HANDLE book_id, PUBLIC_BOOK_INFO *book_info);$/;"	t
+getFrdInfo	src/server/eLibrary_server_handler.c	/^USER_INFO * getFrdInfo(USER_INFO * host, char * frdName)$/;"	f
+getFrdInfo_func	src/server/inc/eLibrary_serverHandler.h	/^typedef USER_INFO * (*getFrdInfo_func)(USER_INFO * host, char * frdName);$/;"	t
+getMsgInfo	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS getMsgInfo(USER_INFO * host, char * frdName, struct msgList ** msgNode)$/;"	f
+getMsgInfo	src/server/inc/eLibrary_serverHandler.h	/^	getMsgInfo_func getMsgInfo;$/;"	m	struct:__anon28
+getMsgInfo_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*getMsgInfo_func)(USER_INFO * host, char * frdName, struct msgList ** msgNode);$/;"	t
+getMsgNode	src/server/eLibrary_server_handler.c	/^struct msgList * getMsgNode(USER_INFO * host, char * frdName)$/;"	f
+getUserActy	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS getUserActy(USER_INFO * host, ACTY_FILTER_TAG filter, uint32_t * numActy, struct actyList ** activities)$/;"	f
+getUserActy	src/server/inc/eLibrary_serverHandler.h	/^	getUserActy_func getUserActy;$/;"	m	struct:__anon28
+getUserActy_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*getUserActy_func)(USER_INFO * host, ACTY_FILTER_TAG filter, uint32_t * numActy, struct actyList ** activities);$/;"	t
+getUserInfo	src/server/eLibrary_server_handler.c	/^USER_INFO * getUserInfo(char * username, char * email)$/;"	f
+getUserInfo_func	src/server/inc/eLibrary_serverHandler.h	/^typedef USER_INFO * (*getUserInfo_func)(char * userName, char * email);$/;"	t
+getUserPublicInfo	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	getUserPublicInfo_func getUserPublicInfo;$/;"	m	struct:__anon29
+getUserPublicInfo_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*getUserPublicInfo_func)(COMMON_HANDLE user_id, PUBLIC_USER_INFO *user_info);$/;"	t
+group	src/server/inc/eLibrary_serverTypes.h	/^	BOOK_GROUP	group;$/;"	m	struct:__anon24
+group	test/test_eLibrary.h	/^	BOOK_GROUP group;$/;"	m	struct:testData
+groupConverer	src/server/eLibrary_server_handler.c	/^BOOK_GROUP groupConverer(char * group_str)$/;"	f
+handler	src/server/inc/eLibrary_serverTypes.h	/^	HANDLER_METHODS handler;$/;"	m	struct:__anon26
+io	src/server/inc/eLibrary_serverTypes.h	/^	MSG_DIRECTION io;$/;"	m	struct:__anon19
+job_center	src/server/inc/eLibrary_serverTypes.h	/^	COMMON_HANDLE job_center;$/;"	m	struct:__anon27
+lastvalue	src/server/inc/eLibrary_serverTypes.h	/^	lastvalue,$/;"	e	enum:__anon18
+listHead	src/server/inc/eLibrary_serverTypes.h	/^	struct userList * listHead;$/;"	m	struct:user_dataBase	typeref:struct:user_dataBase::userList
+listTail	src/server/inc/eLibrary_serverTypes.h	/^	struct userList * listTail;$/;"	m	struct:user_dataBase	typeref:struct:user_dataBase::userList
+lock	src/server/inc/eLibrary_serverTypes.h	/^	pthread_mutex_t   lock;$/;"	m	struct:user_dataBase
+lock_exchange	src/server/eLibrary_server_handler.c	/^pthread_mutex_t lock_exchange = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+m	src/server/CNM/eLibrary_CNM_client_monitor.c	/^\/m()$/;"	f
+m	src/server/CNM/eLibrary_CNM_monitor.c	/^\/m()$/;"	f
+main	src/client/eLibrary_client.c	/^int main(void)$/;"	f
+main	test/test_client.c	/^int main(int argc, char ** argv)$/;"	f
+main	test/test_eLibrary.c	/^int main(int argc, char **argv)$/;"	f
+main	test/test_server.c	/^int main(int argc, char ** argv)$/;"	f
+mergeActy	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS mergeActy(USER_INFO * host, struct actyList * activities, uint32_t * counter)$/;"	f
+mergeActy	src/server/inc/eLibrary_serverHandler.h	/^	mergeActy_func mergeActy;$/;"	m	struct:__anon28
+mergeActy_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*mergeActy_func)(USER_INFO * host, struct actyList * activities, uint32_t * counter);$/;"	t
+mock_client_add_friend	test/test_CNM_client.c	/^mock_client_add_friend(char *user_name, char *password, COMMON_HANDLE *p_client_id)$/;"	f
+mock_client_create_request	src/client/CNM/eLibrary_CNM_client_monitor.c	/^void mock_client_create_request(char *user_name,$/;"	f
+mock_client_create_user	test/test_CNM_client.c	/^mock_client_create_user(char *user_name, char *password, COMMON_HANDLE *p_client_id)$/;"	f
+mock_client_monitor_thread	src/client/CNM/eLibrary_CNM_client_monitor.c	/^mock_client_monitor_thread(void)$/;"	f
+mock_client_read_response	src/client/CNM/eLibrary_CNM_client_monitor.c	/^void mock_client_read_response(char response_str,$/;"	f
+msg	src/server/inc/eLibrary_serverTypes.h	/^	MSG_FORMAT msg;$/;"	m	struct:msgContext
+msg	src/server/inc/eLibrary_serverTypes.h	/^	char		msg[MAX_EMAIL_LENGTH];$/;"	m	struct:__anon19
+msgBox	src/server/inc/eLibrary_serverTypes.h	/^	MSG_BOX			  msgBox;$/;"	m	struct:__anon16
+msgContext	src/server/inc/eLibrary_serverTypes.h	/^struct msgContext$/;"	s
+msgList	src/server/inc/eLibrary_serverTypes.h	/^struct msgList$/;"	s
+msgs	inc/eLibrary_sharedTypes.h	/^				char msgs[MAX_MSG_LENGTH];$/;"	m	union:__anon4::__anon5::__anon6::__anon7
+msgs	src/server/inc/eLibrary_serverTypes.h	/^	struct msgList * msgs; \/* Messeges are grouped by contacts. *\/$/;"	m	struct:__anon20	typeref:struct:__anon20::msgList
+name	inc/eLibrary_sharedTypes.h	/^	char name[MAX_BOOK_NAME_LENGTH];$/;"	m	struct:__anon9
+name	src/server/inc/eLibrary_serverTypes.h	/^	char name[MAX_BOOK_NAME_LENGTH];$/;"	m	struct:__anon24
+name	src/server/inc/eLibrary_serverTypes.h	/^	char name[MAX_LENGTH_NAME];$/;"	m	struct:__anon16
+name	src/server/inc/eLibrary_serverTypes.h	/^	char name[];$/;"	m	struct:__anon17
+next	src/server/inc/eLibrary_serverTypes.h	/^	struct actyList * next;$/;"	m	struct:actyList	typeref:struct:actyList::actyList
+next	src/server/inc/eLibrary_serverTypes.h	/^	struct bookList * next;$/;"	m	struct:bookList	typeref:struct:bookList::bookList
+next	src/server/inc/eLibrary_serverTypes.h	/^	struct msgContext * next;$/;"	m	struct:msgContext	typeref:struct:msgContext::msgContext
+next	src/server/inc/eLibrary_serverTypes.h	/^	struct msgList * next;$/;"	m	struct:msgList	typeref:struct:msgList::msgList
+next	src/server/inc/eLibrary_serverTypes.h	/^	struct userList * next;$/;"	m	struct:userList	typeref:struct:userList::userList
+notifyExchange	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS notifyExchange(USER_INFO * host, char * frdName, char * msg)$/;"	f
+notifyExchange	src/server/inc/eLibrary_serverHandler.h	/^	notifyExchange_func notifyExchange;$/;"	m	struct:__anon28
+notifyExchange_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*notifyExchange_func)(USER_INFO * host, char * frdName, char * msg);$/;"	t
+numActy	inc/eLibrary_sharedTypes.h	/^	uint32_t numActy;$/;"	m	struct:__anon8
+numActy	src/client/inc/eLibrary_clientTypes.h	/^	uint32_t		  numActy;$/;"	m	struct:__anon10
+numBooks	inc/eLibrary_sharedTypes.h	/^	uint32_t numBooks;$/;"	m	struct:__anon8
+numBooks	src/client/inc/eLibrary_clientTypes.h	/^	uint32_t		  numBooks;$/;"	m	struct:__anon10
+numBooks	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^	uint32_t numBooks;$/;"	m	struct:__anon31
+numBooksCollected	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numBooksCollected;$/;"	m	struct:__anon16
+numBooksTotal	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numBooksTotal;$/;"	m	struct:__anon16
+numBooksUploaded	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numBooksUploaded;$/;"	m	struct:__anon16
+numBuy	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t	numBuy;$/;"	m	struct:__anon24
+numCollected	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numCollected;$/;"	m	struct:__anon17
+numFrds	inc/eLibrary_sharedTypes.h	/^	uint32_t numFrds;$/;"	m	struct:__anon8
+numFrds	src/client/inc/eLibrary_clientTypes.h	/^	uint32_t		  numFrds;$/;"	m	struct:__anon10
+numFriends	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numFriends;$/;"	m	struct:__anon16
+numMsg	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numMsg;$/;"	m	struct:__anon20
+numMsg	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numMsg;$/;"	m	struct:msgList
+numUnread	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numUnread;$/;"	m	struct:__anon20
+numUnread	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t numUnread;$/;"	m	struct:msgList
+numUsers	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t 	      numUsers;$/;"	m	struct:user_dataBase
+numWow	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t	numWow;$/;"	m	struct:__anon24
+num_BUYs	inc/eLibrary_sharedTypes.h	/^	uint32_t num_BUYs;$/;"	m	struct:__anon9
+num_WOWs	inc/eLibrary_sharedTypes.h	/^	uint32_t num_WOWs;$/;"	m	struct:__anon9
+num_fds	src/server/CNM/inc/eLibrary_CNM_types.h	/^	nfds_t num_fds;$/;"	m	struct:__anon32
+num_objects	inc/eLibrary_sharedTypes.h	/^			uint32_t num_objects;$/;"	m	struct:__anon4::__anon5::__anon6
+object	inc/eLibrary_sharedTypes.h	/^			} object;$/;"	m	struct:__anon4::__anon5::__anon6	typeref:union:__anon4::__anon5::__anon6::__anon7
+object_str	inc/eLibrary_sharedTypes.h	/^	char object_str[MAX_OBJ_STR_LENGTH]; \/* Which is either a book name or a user name *\/$/;"	m	struct:__anon2
+offset	src/client/inc/eLibrary_clientTypes.h	/^	uint32_t offset;$/;"	m	struct:__anon11
+other_user_chache	src/client/inc/eLibrary_clientTypes.h	/^	STACK_HANDLE other_user_chache;$/;"	m	struct:__anon12
+owner	inc/eLibrary_sharedTypes.h	/^	USER_ID owner;$/;"	m	struct:__anon9
+owner	src/server/inc/eLibrary_serverTypes.h	/^	USER_INFO * owner;$/;"	m	struct:__anon24
+ownerName	test/test_eLibrary.h	/^	char * ownerName;\/\/[MAX_NAME_LENGTH];$/;"	m	struct:testData
+page_last_viewed	src/server/inc/eLibrary_serverTypes.h	/^	FILE page_last_viewed;$/;"	m	struct:__anon16
+pay_load	src/server/inc/eLibrary_serverTypes.h	/^	void *pay_load;$/;"	m	struct:__anon25
+protocol	src/client/CNM/inc/eLibrary_CNM_client_API.h	/^    CNM_CLT_PROTOCOL protocol; \/* Once set cannot be changed. *\/$/;"	m	struct:__anon15
+queue_id	src/server/inc/eLibrary_serverTypes.h	/^	COMMON_HANDLE queue_id;$/;"	m	struct:__anon27
+registerEventCB	src/server/CNM/inc/eLibrary_CNM_API.h	/^	registerEventCB_func registerEventCB;$/;"	m	struct:__anon35
+registerEventCB_func	src/server/CNM/inc/eLibrary_CNM_API.h	/^typedef SYSTEM_STATUS (*registerEventCB_func)(CNM_event_listener listener);$/;"	t
+respond	inc/eLibrary_sharedTypes.h	/^	} respond;$/;"	m	struct:__anon4	typeref:union:__anon4::__anon5
+response_status	inc/eLibrary_sharedTypes.h	/^		SERVER_RESPONSE_STATUS response_status;$/;"	m	union:__anon4::__anon5
+retrieval_type	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE retrieval_type;$/;"	m	struct:__anon2
+retrieval_type	inc/eLibrary_sharedTypes.h	/^	RETRIEVAL_TYPE retrieval_type;$/;"	m	struct:__anon4
+retrieval_type	src/server/inc/eLibrary_serverTypes.h	/^	uint32_t retrieval_type;$/;"	m	struct:__anon25
+rmBook	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS rmBook(USER_INFO * host, char * bookName)$/;"	f
+rmBook	src/server/inc/eLibrary_serverHandler.h	/^	rmBook_func rmBook;$/;"	m	struct:__anon28
+rmBook_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*rmBook_func)(USER_INFO * host, char * bookName);$/;"	t
+rmFriend	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS rmFriend(USER_INFO * host, char * frdName)$/;"	f
+rmFriend	src/server/inc/eLibrary_serverHandler.h	/^	rmFriend_func rmFriend;$/;"	m	struct:__anon28
+rmFriend_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*rmFriend_func)(USER_INFO * host, char * frdName);$/;"	t
+rmPlugin	src/server/CNM/inc/eLibrary_CNM_API.h	/^	rmPlugin_func rmPlugin;$/;"	m	struct:__anon35
+rmPlugin_func	src/server/CNM/inc/eLibrary_CNM_API.h	/^typedef SYSTEM_STATUS (*rmPlugin_func)(CNM_PLUGIN *plugin_inteface);$/;"	t
+root	src/server/DB_ENGINE/inc/eLibrary_db_types.h	/^	TREE_NODE *root;$/;"	m	struct:__anon31
+sem	test/test_CNM_client.c	/^sem_t sem;$/;"	v
+sem	test/test_CNM_server.c	/^sem_t sem;$/;"	v
+sendData	src/server/CNM/inc/eLibrary_CNM_API.h	/^	sendData_func sendData;$/;"	m	struct:__anon35
+sendData_func	src/server/CNM/inc/eLibrary_CNM_API.h	/^typedef SYSTEM_STATUS (*sendData_func)(COMMON_HANDLE conn_handle, SERVER_RESPONSE response_data);$/;"	t
+sendMsgInfo	src/server/inc/eLibrary_serverHandler.h	/^	sendMsgInfo_func sendMsgInfo;$/;"	m	struct:__anon28
+sendMsgInfo_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*sendMsgInfo_func)(USER_INFO * host, char * frdName, char * msg);$/;"	t
+sendReceiveMsg	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS sendReceiveMsg(USER_INFO * host, char * frdName, char * msg, MSG_DIRECTION direction)$/;"	f
+server_msgSend	src/server/CNM/CNM_socket.c	/^SYSTEM_STATUS server_msgSend()$/;"	f
+session_list	src/server/inc/eLibrary_serverTypes.h	/^	LIST_HANDLE session_list;$/;"	m	struct:__anon27
+shm_path	src/server/CNM/inc/eLibrary_shm.h	/^	char shm_path[MAX_SHM_PATH_LENGTH];$/;"	m	struct:__anon34
+socket_fd	src/server/CNM/inc/eLibrary_CNM_types.h	/^	int socket_fd;$/;"	m	struct:__anon32
+sortBooks	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	sortBooks_func sortBooks;$/;"	m	struct:__anon29
+sortBooks_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*sortBooks_func)(uint32_t num_books, COMMON_HANDLE *book_ids);$/;"	t
+sortByAlfa	src/server/eLibrary_server_handler.c	/^void sortByAlfa(struct bookList	* books, uint32_t * numBooks, struct bookList ** bookList)$/;"	f
+sortByDate	src/server/eLibrary_server_handler.c	/^void sortByDate(struct bookList	* books, uint32_t * numBooks, struct bookList ** bookList)$/;"	f
+sortByGroup	src/server/eLibrary_server_handler.c	/^void sortByGroup(struct bookList * books, uint32_t * numBooks, struct bookList ** bookList)$/;"	f
+sortUsers	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^	sortUsers_func sortUsers;$/;"	m	struct:__anon29
+sortUsers_func	src/server/DB_ENGINE/inc/eLibrary_DB_API.h	/^typedef SYSTEM_STATUS (*sortUsers_func)(uint32_t num_books, COMMON_HANDLE *user_ids);$/;"	t
+sort_id	inc/eLibrary_sharedTypes.h	/^	uint32_t sort_id;$/;"	m	struct:__anon2
+str_echo	src/server/CNM/CNM_socket.c	/^void str_echo(int fd)$/;"	f
+str_echo	test/test_server.c	/^void str_echo(int fd)$/;"	f
+suite_clean_func	test/test_CNM_client.c	/^void suite_clean_func()$/;"	f
+suite_clean_func	test/test_CNM_server.c	/^void suite_clean_func()$/;"	f
+suite_init_func	test/test_CNM_client.c	/^void suite_init_func()$/;"	f
+suite_init_func	test/test_CNM_server.c	/^void suite_init_func()$/;"	f
+tag	src/server/inc/eLibrary_serverTypes.h	/^	BOOK_FILTER_TAG tag;$/;"	m	struct:__anon22
+tag_name	inc/eLibrary_sharedTypes.h	/^				char tag_name[MAX_TAG_NAME_LENGTH];$/;"	m	union:__anon4::__anon5::__anon6::__anon7
+tags_bitmap	inc/eLibrary_sharedTypes.h	/^	uint32_t tags_bitmap;$/;"	m	struct:__anon9
+testData	test/test_eLibrary.h	/^struct testData$/;"	s
+test_CNM_SHM_client	test/test_CNM_client.c	/^void test_CNM_SHM_client(void)$/;"	f
+test_CNM_SHM_server	test/test_CNM_server.c	/^void test_CNM_SHM_server(void)$/;"	f
+test_CNM_client_tests	test/test_CNM_client.c	/^CU_TestInfo test_CNM_client_tests[] = {$/;"	v
+test_CNM_server_SHM	test/test_CNM_server.c	/^void test_CNM_server_SHM()$/;"	f
+test_CNM_server_tests	test/test_CNM_server.c	/^CU_TestInfo test_CNM_server_tests[] = {$/;"	v
+test_dumpFrdInfo	test/test_serverHandler.c	/^void test_dumpFrdInfo(USER_INFO * host)$/;"	f
+test_sem_wait	test/test_CNM_client.c	/^test_sem_wait(sem_t *sem)$/;"	f
+test_sem_wait	test/test_CNM_server.c	/^test_sem_wait(sem_t *sem)$/;"	f
+test_serverHandler_bookAdd	test/test_serverHandler.c	/^void test_serverHandler_bookAdd(void)$/;"	f
+test_serverHandler_bookProp	test/test_serverHandler.c	/^void test_serverHandler_bookProp(void)$/;"	f
+test_serverHandler_checkActies	test/test_serverHandler.c	/^void test_serverHandler_checkActies(void)$/;"	f
+test_serverHandler_createActy	test/test_serverHandler.c	/^void test_serverHandler_createActy(void)$/;"	f
+test_serverHandler_msgs	test/test_serverHandler.c	/^void test_serverHandler_msgs(void)$/;"	f
+test_serverHandler_userAdd	test/test_serverHandler.c	/^void test_serverHandler_userAdd(void)$/;"	f
+test_serverInit	test/test_eLibrary.c	/^void test_serverInit(void)$/;"	f
+test_serverTerm	test/test_eLibrary.c	/^void test_serverTerm(void)$/;"	f
+test_wowBuyBook	test/test_serverHandler.c	/^SYSTEM_STATUS test_wowBuyBook(uint32_t i, uint32_t j, ACTY_FILTER_TAG acty)$/;"	f
+text_cxt	src/client/inc/eLibrary_clientTypes.h	/^	TEXT_CONTENT text_cxt;$/;"	m	struct:__anon12
+thread_CNM_daemon	src/server/CNM/eLibrary_CNM_client_monitor.c	/^void thread_CNM_daemon(void)$/;"	f
+thread_CNM_daemon	src/server/CNM/eLibrary_CNM_monitor.c	/^void thread_CNM_daemon(void)$/;"	f
+thread_SVR_daemon	src/server/eLibrary_server_process.c	/^void thread_SVR_daemon(void)$/;"	f
+thread_SVR_worker	src/server/eLibrary_server_process.c	/^void thread_SVR_worker(void)$/;"	f
+timestamp	src/server/inc/eLibrary_serverTypes.h	/^	time_t timestamp;$/;"	m	struct:actyList
+undef	src/server/inc/eLibrary_serverTypes.h	/^	undef = -1,$/;"	e	enum:__anon18
+unread	src/server/inc/eLibrary_serverTypes.h	/^	bool		unread;$/;"	m	struct:__anon19
+uploaderId	src/server/inc/eLibrary_serverTypes.h	/^	COMMON_HANDLE uploaderId;$/;"	m	struct:__anon17
+user	src/server/inc/eLibrary_serverTypes.h	/^		USER_INFO * user;$/;"	m	union:__anon22::__anon23
+user	src/server/inc/eLibrary_serverTypes.h	/^	USER_INFO * user;$/;"	m	struct:userList
+userList	src/server/inc/eLibrary_serverTypes.h	/^struct userList$/;"	s
+user_dataBase	src/server/inc/eLibrary_serverTypes.h	/^struct user_dataBase$/;"	s
+user_id	inc/eLibrary_sharedTypes.h	/^	USER_ID user_id;$/;"	m	struct:__anon8
+user_id	src/client/inc/eLibrary_clientTypes.h	/^	USER_ID user_id;$/;"	m	struct:__anon10
+user_id	src/server/inc/eLibrary_serverTypes.h	/^	USER_ID user_id;$/;"	m	struct:__anon26
+user_info_cache	src/client/inc/eLibrary_clientTypes.h	/^	CLIENT_USER_INFO user_info_cache;$/;"	m	struct:__anon12
+user_name	inc/eLibrary_sharedTypes.h	/^	char user_name[MAX_NAME_LENGTH];$/;"	m	struct:__anon8
+users	inc/eLibrary_sharedTypes.h	/^				PUBLIC_USER_INFO *users;$/;"	m	union:__anon4::__anon5::__anon6::__anon7
+viewBook	src/server/eLibrary_server_handler.c	/^char * viewBook(char * bookName)$/;"	f
+viewBook	src/server/inc/eLibrary_serverHandler.h	/^	viewBook_func viewBook;$/;"	m	struct:__anon28
+viewBook_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*viewBook_func)(COMMON_HANDLE book_handle, char *buf);$/;"	t
+whoBuyed	src/server/inc/eLibrary_serverTypes.h	/^	struct nameDateList * whoBuyed; \/* A name list who buyed this book. *\/$/;"	m	struct:__anon24	typeref:struct:__anon24::nameDateList
+whoWowed	src/server/inc/eLibrary_serverTypes.h	/^	struct nameDateList * whoWowed; \/* A name list who wowed this book. *\/$/;"	m	struct:__anon24	typeref:struct:__anon24::nameDateList
+wowBook	src/server/eLibrary_server_handler.c	/^SYSTEM_STATUS wowBook(USER_INFO * host, BOOK_INFO * book)$/;"	f
+wowBook	src/server/inc/eLibrary_serverHandler.h	/^	wowBook_func wowBook;$/;"	m	struct:__anon28
+wowBook_func	src/server/inc/eLibrary_serverHandler.h	/^typedef SYSTEM_STATUS (*wowBook_func)(USER_INFO * host, BOOK_INFO * book);$/;"	t
